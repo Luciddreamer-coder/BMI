@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider, RadioButtons
 from matplotlib.patches import Circle, Rectangle
 
-# ---------------- CONSTANTS ----------------
+
 MIN_BMI, MAX_BMI = 10, 50
 BG_COLOR = "#0a0e27"
 PANEL_COLOR = "#1a1f3a"
@@ -23,7 +23,7 @@ def get_bmi_category(bmi):
     else:
         return "Obese", "#F44336"
 
-# ---------------- DRAW GAUGE ----------------
+
 def draw_gauge(ax):
     ax.set_aspect('equal')
     ax.axis('off')
